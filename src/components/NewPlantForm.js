@@ -1,6 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 
-function NewPlantForm() {
+
+function PlantForm({addPlant}) {
+  const [name, setName] = useState('');
+  const [image, setImage] = useState('');
+  const [price, setPrice] = useState('');
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const newPlant = { name, image, price: parseFloat(price) };
+
+    fetch('http://localhost:6001/plants', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(newPlant)
+    })
+
   return (
     <div className="new-plant-form">
       <h2>New Plant</h2>
@@ -14,4 +29,4 @@ function NewPlantForm() {
   );
 }
 
-export default NewPlantForm;
+export default PlantList;
