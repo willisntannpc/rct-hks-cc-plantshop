@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/willisntannpc/rct-hks-cc-plantshop/static/css/main.b213a747.css",
+    "main.js": "/willisntannpc/rct-hks-cc-plantshop/static/js/main.3e1c6d6e.js",
+    "index.html": "/willisntannpc/rct-hks-cc-plantshop/index.html",
+    "main.b213a747.css.map": "/willisntannpc/rct-hks-cc-plantshop/static/css/main.b213a747.css.map",
+    "main.3e1c6d6e.js.map": "/willisntannpc/rct-hks-cc-plantshop/static/js/main.3e1c6d6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b213a747.css",
+    "static/js/main.3e1c6d6e.js"
+  ]
+}
