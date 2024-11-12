@@ -1,4 +1,4 @@
-# Phase 2 Code Challenge: Plantsy
+# Phase 2 Code Challenge: Plantsy React app
 
 ## Demo
 
@@ -38,7 +38,7 @@ As a user:
 3. I can mark a plant as "sold out".
 4. I can search for plants by their name and see a filtered list of plants.
 
-### Endpoints for Core Deliverables
+### Endpoint for Core Deliverables
 
 #### GET /plants
 
@@ -148,3 +148,4 @@ Example Response:
 ```json
 {}
 ```
+this project was completed by @willisntannpc.github.io 
